@@ -13,7 +13,7 @@ To ensure a smooth transition, your account will continue using version 6.1 unti
 
 ## Migrate your code from V6.1 to V7
 
-Some customers employ post-processing logic following the DetectModerationLabels or StartContentModeration APIs call to conditionally include or exclude certain categories. Since some of the V7 label names differ from the previous version (V6.1), you'll need to revisit the code and make corresponding changes. 
+Some customers employ post-processing logic following the DetectModerationLabels or StartContentModeration API calls to conditionally include or exclude certain categories. Since some of the V7 label names differ from the previous version (V6.1), you'll need to revisit the code and make corresponding changes. 
 
 We recommend existing customers using Rekognition DetectModerationLabels or StartContentModeration APIs review the new taxtonomy throughly and refactor your application. As there are new categories add and some existing category deinfition updated as well. For a full V7 taxtonomy, refer to this [document](https://docs.aws.amazon.com/rekognition/latest/dg/moderation.html#moderation-api).
 
